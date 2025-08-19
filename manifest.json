@@ -5,6 +5,8 @@
     "url": "https://www.oandgexample.com/license/"
   },
   "developer": {
+    "name": "O&G Company",
+    "identifier": "oandgc",
     "authors": []
   },
   "application": {
@@ -18,7 +20,10 @@
       "initial_size": {
         "w": 4,
         "h": 10
-      }
+      },
+      "multi_rig": false,
+      "full_screen_report": false,
+      "use_app_header_v3": true
     }
   },
   "settings": {
@@ -26,8 +31,11 @@
       "file": "src/index.js",
       "function": "handler"
     },
-    "runtime": "ui"
+    "environment": {},
+    "runtime": "ui",
+    "app": {
+      "log_type": "time"
+    }
   },
-  "environment": {},
   "datasets": {}
 }
